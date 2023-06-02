@@ -10,6 +10,7 @@
 
 const hockeyStick = {
   brand: "Bauer",
+  model: "Nexus Sync",
   flex: 87,
   curve: "P92",
   kick: "Mid-kick",
@@ -38,5 +39,19 @@ const hockeyBag = {
   },
 };
 
-console.log(hockeyStick);
-console.log(hockeyBag);
+const hockeyElbowPads = {
+  brand: "CCM",
+  model: "AS-V Pro",
+  size: "XL",
+};
+
+const hockeyShinPads = {
+  brand: "Bauer",
+  model: "Hyperlite",
+  size: "15 inch",
+};
+
+console.log("Hockey stick:", hockeyStick);
+console.log("Hockey bag:", hockeyBag);
+console.log("Hockey elbow pads:", hockeyElbowPads);
+console.log("Hockey shin pads:", hockeyShinPads);
