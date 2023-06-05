@@ -40,6 +40,7 @@ const myProtectiveGear = new HockeyProGear(
   "15 inch"
 );
 
+console.log("My everyday bag:", everydayPack);
 console.log("My hockey stick spec:", myHockeyStick);
 console.log("My awesome hockey bag:", myHockeyBag);
 console.log("My protective gear", myProtectiveGear);

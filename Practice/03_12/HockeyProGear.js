@@ -6,3 +6,5 @@ class HockeyProGear {
     this.size = size;
   }
 }
+
+export default HockeyProGear;
