@@ -12,6 +12,7 @@ const backpack = {
   volume: 30,
   color: "grey",
   pocketNum: 15,
+  lidOpen: false,
   strapLength: {
     left: 26,
     right: 26,
@@ -23,4 +24,19 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newPocketNUmber: function (totalPockets) {
+    this.pocketNum = totalPockets;
+  },
+  changeVolume: function (newVolume) {
+    this.volume = newVolume;
+  },
 };
+
+console.log("Current pockets:", backpack.pocketNum);
+console.log("Current volume:", backpack.volume);
+
+backpack.newPocketNUmber(18);
+backpack.changeVolume(50);
+
+console.log("New pocket number:", backpack.pocketNum);
+console.log("New volume:", backpack.volume);

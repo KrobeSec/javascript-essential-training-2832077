@@ -15,7 +15,7 @@ const hockeyStick = {
   curve: "P92",
   kick: "Mid-kick",
   isTaped: true,
-  toggleTaped: function (tapeStatus) {
+  toggleTaped(tapeStatus) {
     this.isTaped = tapeStatus;
   },
 };
