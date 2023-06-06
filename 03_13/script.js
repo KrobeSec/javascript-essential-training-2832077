@@ -4,6 +4,7 @@
  */
 
 import Backpack from "./Backpack.js";
+import Book from "./Book.js";
 
 const everydayPack = new Backpack(
   "Everyday Backpack",
@@ -16,5 +17,15 @@ const everydayPack = new Backpack(
   "December 5, 2018 15:00:00 PST"
 );
 
+const bookOne = new Book(
+  "To Kill a Mockingbird",
+  "Harper Lee",
+  "Hardback",
+  true,
+  "4.27"
+);
+
 console.log("The everydayPack object:", everydayPack);
 console.log("Date acquired:", everydayPack.dateAcquired);
+console.log("Days since acquired:", everydayPack.backpackAge()); // if you want to call something as a method, add the parenthesis
+console.log("First book:", bookOne);
